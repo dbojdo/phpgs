@@ -1,0 +1,7 @@
+version: '2'
+services:
+  php5:
+      build: docker/
+      volumes:
+          - .:/var/www/html
+      working_dir: /var/www/html

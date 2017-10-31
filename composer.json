@@ -1,0 +1,30 @@
+{
+    "name" : "webit/phpgs",
+    "type": "library",
+    "license": "MIT",
+    "description" : "PHP Wrapper for Ghost Script",
+    "keywords": ["ghostscript", "ghost script", "gs", "pdf merge", "pdf split"],
+    "require" : {
+        "php" : ">=5.3.9",
+        "symfony/process": "^2.3|^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.5",
+        "mockery/mockery": "^0.9.9"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Webit\\PHPgs\\" : "src/"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "Webit\\PHPgs\\" : "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
