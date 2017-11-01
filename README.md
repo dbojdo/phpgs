@@ -104,5 +104,5 @@ $pdfManipulator->split($input, $output, null, 10, $customOptions);
 ## Tests
 
 ```bash
-docker-compose run --rm php5 ./vendor/bin/phpunit tests/Pdf/PdfManipulatorIntegrationTest.php
+docker-compose run --rm php5 ./vendor/bin/phpunit
 ```
