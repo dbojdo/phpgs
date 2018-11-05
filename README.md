@@ -23,7 +23,7 @@ use Webit\PHPgs\Options\Options;
 use Webit\PHPgs\Options\Device;
 
 /** @var \Webit\PHPgs\Executor $executor */
-$executor = ExecutorBuilder::create()->setGhostScriptBin('/path/to/the/binary/of/gs')->build();
+$executor = ExecutorBuilder::create()->setGhostScriptBinary('/path/to/the/binary/of/gs')->build();
 
 $input = Input::singleFile('/path/to/your/input_file');
 $output = Output::create('/path/to/your/tempdir/output.pdf');
